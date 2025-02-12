@@ -7,9 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "start": "vite preview",
     "preview": "vite preview"
   },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
   "dependencies": {
     "axios": "^1.7.9",
     "prismjs": "^1.29.0",

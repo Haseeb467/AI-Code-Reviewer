@@ -2,12 +2,12 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "mod
+  ule",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "start": "vite preview",
     "preview": "vite preview"
   },
   "dependencies": {

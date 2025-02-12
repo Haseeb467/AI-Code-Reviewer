@@ -5978,7 +5978,12 @@
         "type": "github",
         "url": "https://github.com/sponsors/wooorm"
       }
-    }
+    },
+    {
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
   }
   
 }

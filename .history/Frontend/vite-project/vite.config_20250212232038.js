@@ -6,3 +6,6 @@ export default defineConfig({
   plugins: [react()],
 })
 
+"rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
